@@ -1,0 +1,27 @@
+:root {
+    --primary-color: rgb(255, 255, 255);
+    --font-color: #0000;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media(min-width:1024px) {
+
+
+
+    
+}
+
+@media(min-width:428px) {
+
+
+
+
+}
