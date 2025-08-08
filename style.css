@@ -318,46 +318,140 @@
         height: 208px;
     }
 
-    .latest-project{
+    .latest-project {
         background-color: var(--secundary-color);
-        padding-bottom: 3.938rem;
+        padding-bottom: 1.938rem;
     }
 
 
-    .latest-project .titles-sections{
+    .latest-project .titles-sections {
         justify-content: flex-start;
-        max-width: 50%;
+        max-width: 70%;
         color: white;
+        padding-top: 2.813rem;
     }
 
-    .card-project p,h3{
+    .card-project p,
+    h3 {
         color: white;
         font-family: var(--font-poppins);
     }
 
-     .card-project p{
+    .card-project p {
         color: rgb(161, 161, 161);
         font-family: var(--font-products);
         font-size: 12px;
     }
 
 
-    .card-project h3{
+    .card-project h3 {
         font-size: 1rem;
-        
+
     }
 
-    .text-projects{
+    .text-projects {
         display: flex;
         gap: 2px;
         flex-direction: column;
     }
 
 
-    .card-project{
+    .card-project {
         margin-bottom: 1.188rem;
-        
+
     }
+
+    .new-product {
+        background-image: url(/Images/newcomer-product-mobile.png);
+        height: 51.188rem;
+        font-family: var(--font-poppins);
+    }
+
+
+    .description-new-product {
+        font-family: var(--font-inter);
+        color: gray;
+        font-weight: 300;
+    }
+
+    .new-product .titles-sections {
+        font-size: 1.25rem;
+        color: var(--primary-color);
+        padding: 10px;
+        justify-content: flex-start;
+    }
+
+    .subtitle-new-product {
+        font-size: 2.5rem;
+
+    }
+
+    .avaliable-colors {
+        font-family: var(--font-products);
+        font-weight: 600;
+    }
+
+    .buttons-colors {
+        display: flex;
+        gap: 0.625rem;
+    }
+
+    .buttons-colors span {
+        padding-top: 5px;
+        padding-bottom: 6px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 50%;
+
+    }
+
+    .green-btn {
+        background-color: rgba(53, 86, 85, 1);
+        color: white;
+    }
+
+    .orange-btn {
+        background-color: var(--primary-color);
+        color: var(--primary-color);
+
+    }
+
+    .brown-btn {
+        background-color: rgba(202, 129, 82, 1);
+        color: rgba(202, 129, 82, 1);
+
+    }
+
+    .beige-btn {
+        background-color: rgba(235, 197, 173, 1);
+        color: rgba(235, 197, 173, 1);
+
+    }
+
+    .black-btn {
+        background-color: rgba(41, 41, 40, 1);
+        color: rgba(41, 41, 40, 1);
+
+    }
+
+    .shop-now-btn {
+        max-width: 200px;
+        display: flex;
+        background-color: var(--primary-color);
+    }
+
+    .shop-now-btn button {
+        
+        background: var(--primary-color);
+        color: #fff;
+        border-radius: 10px;
+        font-family: var(--font-inter);
+        font-weight: 600;
+        border: none;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    }
+
+
 
 }
 
