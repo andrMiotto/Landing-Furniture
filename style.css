@@ -372,6 +372,7 @@
         font-family: var(--font-inter);
         color: gray;
         font-weight: 300;
+        margin-bottom: 1.813rem;
     }
 
     .new-product .titles-sections {
@@ -383,24 +384,27 @@
 
     .subtitle-new-product {
         font-size: 2.5rem;
+        margin-bottom: 0.563rem;
 
     }
 
     .avaliable-colors {
         font-family: var(--font-products);
         font-weight: 600;
+        margin-bottom: 1.125rem;
     }
 
     .buttons-colors {
         display: flex;
         gap: 0.625rem;
+        margin-bottom: 3.313rem;
     }
 
     .buttons-colors span {
-        padding-top: 5px;
-        padding-bottom: 6px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 6px;
+        padding-right: 6px;
         border-radius: 50%;
 
     }
@@ -435,24 +439,90 @@
     }
 
     .shop-now-btn {
-        max-width: 200px;
+        max-width: 50%;
         display: flex;
         background-color: var(--primary-color);
+        justify-content: space-evenly;
+        font-size: 1.125rem;
+        background: var(--primary-color);
+        color: #fff;
+        border-radius: 5px;
+        font-family: var(--font-inter);
+        border: none;
+        gap: 4px;
     }
 
     .shop-now-btn button {
-        
-        background: var(--primary-color);
-        color: #fff;
-        border-radius: 10px;
-        font-family: var(--font-inter);
-        font-weight: 600;
+        color: white;
         border: none;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+        font-weight: 700;
+        background-color: var(--primary-color);
+    }
+
+    .shop-now-btn span {
+        border-radius: 100%;
+        border: 6px solid transparent;
+        background-color: rgba(196, 196, 196, 0.2)
+    }
+
+    .text-arrows {
+        display: flex;
+        align-items: flex-end;
+        gap: 1.50rem;
+        justify-content: space-between;
+
+
+    }
+
+    .testimonials {}
+
+
+    .testimonials .titles-sections {
+        padding-bottom: 0px;
+        padding-top: 0px;
+        max-width: 60%;
+        gap: 50%;
     }
 
 
+    .witness {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3.063rem;
+        align-items: center;
+    }
 
+    .img-witness {
+        max-width: 60%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.75rem;
+    }
+
+    .orange-double-quotes p {
+        color: var(--primary-color);
+    }
+aafas
+    .images-witness {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .witness h3 {
+        color: black;
+        font-size: 1.25rem;
+    }
+
+
+    .text-witness {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+    }
 }
+
+
 
 @media(min-width:1440px) {}
